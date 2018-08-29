@@ -789,6 +789,7 @@
 				D24748FC2136FF1F00267C07 /* Frameworks */,
 				D24748FD2136FF1F00267C07 /* Headers */,
 				D24748FE2136FF1F00267C07 /* Resources */,
+				D27F92BD213708CE00C02081 /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -895,6 +896,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D27F92BD213708CE00C02081 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SocketRocket.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SocketRocket.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		39302A291C6978AB0061C6B5 /* Sources */ = {
