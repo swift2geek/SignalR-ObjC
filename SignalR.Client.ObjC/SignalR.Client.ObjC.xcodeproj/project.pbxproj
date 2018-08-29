@@ -88,6 +88,133 @@
 		D24748AC2136F3DE00267C07 /* AFDownloadRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = D24748AA2136F3DE00267C07 /* AFDownloadRequestOperation.h */; };
 		D24748AD2136F3DE00267C07 /* AFDownloadRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D24748AB2136F3DE00267C07 /* AFDownloadRequestOperation.m */; };
 		D24748B52136F4E300267C07 /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D24748B42136F4E300267C07 /* SocketRocket.framework */; };
+		D24749092136FF1F00267C07 /* SignalRObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D24749002136FF1F00267C07 /* SignalRObjC.framework */; };
+		D247490E2136FF1F00267C07 /* SignalRObjCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D247490D2136FF1F00267C07 /* SignalRObjCTests.swift */; };
+		D24749102136FF1F00267C07 /* SignalRObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = D24749022136FF1F00267C07 /* SignalRObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D24749172136FF7000267C07 /* SRHubs.h in Sources */ = {isa = PBXBuildFile; fileRef = 3920783215AF13F6009B959E /* SRHubs.h */; };
+		D24749182136FF7000267C07 /* SRHubConnectionInterface.h in Sources */ = {isa = PBXBuildFile; fileRef = 8CFF876916E13FF500B67FCA /* SRHubConnectionInterface.h */; };
+		D24749192136FF7000267C07 /* SRHubConnection.h in Sources */ = {isa = PBXBuildFile; fileRef = 3920782615AF13F6009B959E /* SRHubConnection.h */; };
+		D247491A2136FF7000267C07 /* SRHubConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3920782715AF13F6009B959E /* SRHubConnection.m */; };
+		D247491B2136FF7000267C07 /* SRHubProxyInterface.h in Sources */ = {isa = PBXBuildFile; fileRef = 39EBAC2E16D067CB00C6F359 /* SRHubProxyInterface.h */; };
+		D247491C2136FF7000267C07 /* SRHubProxy.h in Sources */ = {isa = PBXBuildFile; fileRef = 3920782A15AF13F6009B959E /* SRHubProxy.h */; };
+		D247491D2136FF7000267C07 /* SRHubProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3920782B15AF13F6009B959E /* SRHubProxy.m */; };
+		D247491E2136FF7000267C07 /* SRHubInvocation.h in Sources */ = {isa = PBXBuildFile; fileRef = 3920782815AF13F6009B959E /* SRHubInvocation.h */; };
+		D247491F2136FF7000267C07 /* SRHubInvocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3920782915AF13F6009B959E /* SRHubInvocation.m */; };
+		D24749202136FF7000267C07 /* SRHubRegistrationData.h in Sources */ = {isa = PBXBuildFile; fileRef = 3920782E15AF13F6009B959E /* SRHubRegistrationData.h */; };
+		D24749212136FF7000267C07 /* SRHubRegistrationData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3920782F15AF13F6009B959E /* SRHubRegistrationData.m */; };
+		D24749222136FF7000267C07 /* SRHubResult.h in Sources */ = {isa = PBXBuildFile; fileRef = 3920783015AF13F6009B959E /* SRHubResult.h */; };
+		D24749232136FF7000267C07 /* SRHubResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 3920783115AF13F6009B959E /* SRHubResult.m */; };
+		D24749242136FF7000267C07 /* SRSubscription.h in Sources */ = {isa = PBXBuildFile; fileRef = 3920783515AF13F6009B959E /* SRSubscription.h */; };
+		D24749252136FF7000267C07 /* SRSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 3920783615AF13F6009B959E /* SRSubscription.m */; };
+		D24749262136FF7000267C07 /* NSObject+SRJSON.h in Sources */ = {isa = PBXBuildFile; fileRef = 3920783A15AF13F6009B959E /* NSObject+SRJSON.h */; };
+		D24749272136FF7000267C07 /* NSObject+SRJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 3920783B15AF13F6009B959E /* NSObject+SRJSON.m */; };
+		D24749282136FF7000267C07 /* SRDeserializable.h in Sources */ = {isa = PBXBuildFile; fileRef = 3920784015AF13F6009B959E /* SRDeserializable.h */; };
+		D24749292136FF7000267C07 /* SRExceptionHelper.h in Sources */ = {isa = PBXBuildFile; fileRef = 3920784115AF13F6009B959E /* SRExceptionHelper.h */; };
+		D247492A2136FF7000267C07 /* SRExceptionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3920784215AF13F6009B959E /* SRExceptionHelper.m */; };
+		D247492B2136FF7000267C07 /* SRSerializable.h in Sources */ = {isa = PBXBuildFile; fileRef = 3920784315AF13F6009B959E /* SRSerializable.h */; };
+		D247492C2136FF7000267C07 /* SRVersion.h in Sources */ = {isa = PBXBuildFile; fileRef = 3920784615AF13F6009B959E /* SRVersion.h */; };
+		D247492D2136FF7000267C07 /* SRVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 3920784715AF13F6009B959E /* SRVersion.m */; };
+		D247492E2136FF7000267C07 /* SRConnectionInterface.h in Sources */ = {isa = PBXBuildFile; fileRef = 39EBAC2816D03F1000C6F359 /* SRConnectionInterface.h */; };
+		D247492F2136FF7000267C07 /* SRConnection.h in Sources */ = {isa = PBXBuildFile; fileRef = 3920784915AF13F6009B959E /* SRConnection.h */; };
+		D24749302136FF7000267C07 /* SRConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3920784A15AF13F6009B959E /* SRConnection.m */; };
+		D24749312136FF7000267C07 /* SRConnectionExtensions.h in Sources */ = {isa = PBXBuildFile; fileRef = 39423B5516D13515003E7516 /* SRConnectionExtensions.h */; };
+		D24749322136FF7000267C07 /* SRConnectionExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 39423B5616D13515003E7516 /* SRConnectionExtensions.m */; };
+		D24749332136FF7000267C07 /* SRConnectionDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 39EBAC2916D03F5800C6F359 /* SRConnectionDelegate.h */; };
+		D24749342136FF7000267C07 /* SRConnectionState.h in Sources */ = {isa = PBXBuildFile; fileRef = 3920784B15AF13F6009B959E /* SRConnectionState.h */; };
+		D24749352136FF7000267C07 /* SRHeartbeatMonitor.h in Sources */ = {isa = PBXBuildFile; fileRef = 3903084A173C660E00FE660E /* SRHeartbeatMonitor.h */; };
+		D24749362136FF7000267C07 /* SRHeartbeatMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3903084B173C660E00FE660E /* SRHeartbeatMonitor.m */; };
+		D24749372136FF7000267C07 /* SRKeepAliveData.h in Sources */ = {isa = PBXBuildFile; fileRef = 39533B8B173B376E003C138A /* SRKeepAliveData.h */; };
+		D24749382136FF7000267C07 /* SRKeepAliveData.m in Sources */ = {isa = PBXBuildFile; fileRef = 39533B8C173B376E003C138A /* SRKeepAliveData.m */; };
+		D24749392136FF7000267C07 /* SRNegotiationResponse.h in Sources */ = {isa = PBXBuildFile; fileRef = 3920784C15AF13F6009B959E /* SRNegotiationResponse.h */; };
+		D247493A2136FF7000267C07 /* SRNegotiationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3920784D15AF13F6009B959E /* SRNegotiationResponse.m */; };
+		D247493B2136FF7000267C07 /* SRLog.h in Sources */ = {isa = PBXBuildFile; fileRef = 3920784E15AF13F6009B959E /* SRLog.h */; };
+		D247493C2136FF7000267C07 /* SREventSourceResponseSerializer.h in Sources */ = {isa = PBXBuildFile; fileRef = 39A27EFC1C5FD242009B7459 /* SREventSourceResponseSerializer.h */; };
+		D247493D2136FF7000267C07 /* SREventSourceResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A27EFD1C5FD242009B7459 /* SREventSourceResponseSerializer.m */; };
+		D247493E2136FF7000267C07 /* SREventSourceRequestSerializer.h in Sources */ = {isa = PBXBuildFile; fileRef = 39A27EF81C5FD151009B7459 /* SREventSourceRequestSerializer.h */; };
+		D247493F2136FF7000267C07 /* SREventSourceRequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A27EF91C5FD151009B7459 /* SREventSourceRequestSerializer.m */; };
+		D24749402136FF7000267C07 /* SRChunkBuffer.h in Sources */ = {isa = PBXBuildFile; fileRef = 3920785115AF13F6009B959E /* SRChunkBuffer.h */; };
+		D24749412136FF7000267C07 /* SRChunkBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3920785215AF13F6009B959E /* SRChunkBuffer.m */; };
+		D24749422136FF7000267C07 /* SREventSourceStreamReader.h in Sources */ = {isa = PBXBuildFile; fileRef = 3920785315AF13F6009B959E /* SREventSourceStreamReader.h */; };
+		D24749432136FF7000267C07 /* SREventSourceStreamReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3920785415AF13F6009B959E /* SREventSourceStreamReader.m */; };
+		D24749442136FF7000267C07 /* SRServerSentEvent.h in Sources */ = {isa = PBXBuildFile; fileRef = 39F7D7AE1833FC99002590A6 /* SRServerSentEvent.h */; };
+		D24749452136FF7000267C07 /* SRServerSentEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F7D7AF1833FC99002590A6 /* SRServerSentEvent.m */; };
+		D24749462136FF7000267C07 /* SRWebSocketConnectionInfo.h in Sources */ = {isa = PBXBuildFile; fileRef = 39AF0D801713935A00E13E6E /* SRWebSocketConnectionInfo.h */; };
+		D24749472136FF7000267C07 /* SRWebSocketConnectionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AF0D811713935A00E13E6E /* SRWebSocketConnectionInfo.m */; };
+		D24749482136FF7000267C07 /* SRClientTransportInterface.h in Sources */ = {isa = PBXBuildFile; fileRef = 3920785B15AF13F6009B959E /* SRClientTransportInterface.h */; };
+		D24749492136FF7000267C07 /* SRHttpBasedTransport.h in Sources */ = {isa = PBXBuildFile; fileRef = 3920785C15AF13F6009B959E /* SRHttpBasedTransport.h */; };
+		D247494A2136FF7000267C07 /* SRHttpBasedTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 3920785D15AF13F6009B959E /* SRHttpBasedTransport.m */; };
+		D247494B2136FF7000267C07 /* SRAutoTransport.h in Sources */ = {isa = PBXBuildFile; fileRef = 3920785815AF13F6009B959E /* SRAutoTransport.h */; };
+		D247494C2136FF7000267C07 /* SRAutoTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 3920785915AF13F6009B959E /* SRAutoTransport.m */; };
+		D247494D2136FF7000267C07 /* SRLongPollingTransport.h in Sources */ = {isa = PBXBuildFile; fileRef = 3920785E15AF13F6009B959E /* SRLongPollingTransport.h */; };
+		D247494E2136FF7000267C07 /* SRLongPollingTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 3920785F15AF13F6009B959E /* SRLongPollingTransport.m */; };
+		D247494F2136FF7000267C07 /* SRServerSentEventsTransport.h in Sources */ = {isa = PBXBuildFile; fileRef = 3920786015AF13F6009B959E /* SRServerSentEventsTransport.h */; };
+		D24749502136FF7000267C07 /* SRServerSentEventsTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 3920786115AF13F6009B959E /* SRServerSentEventsTransport.m */; };
+		D24749512136FF7000267C07 /* SRWebSocketTransport.h in Sources */ = {isa = PBXBuildFile; fileRef = 39AF0D7C17138E3800E13E6E /* SRWebSocketTransport.h */; };
+		D24749522136FF7000267C07 /* SRWebSocketTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AF0D7D17138E3800E13E6E /* SRWebSocketTransport.m */; };
+		D24749532136FF7000267C07 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 39302A251C6977800061C6B5 /* Info.plist */; };
+		D24749542136FF7000267C07 /* SignalR.h in Sources */ = {isa = PBXBuildFile; fileRef = 39302A261C6977800061C6B5 /* SignalR.h */; };
+		D24749552136FF7000267C07 /* SRConnectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 391F979D1C711340007AA844 /* SRConnectionTests.m */; };
+		D24749562136FF7000267C07 /* SRHubConnectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 391F979E1C711340007AA844 /* SRHubConnectionTests.m */; };
+		D24749572136FF7000267C07 /* SRHubProxyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 391F979F1C711340007AA844 /* SRHubProxyTests.m */; };
+		D24749582136FF7000267C07 /* SRAutoTransportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3989F3341C984A36005A100A /* SRAutoTransportTests.m */; };
+		D24749592136FF7000267C07 /* SRLongPollingTransportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 391F97951C71132B007AA844 /* SRLongPollingTransportTests.m */; };
+		D247495A2136FF7000267C07 /* SRChunkBufferTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 391F97941C71132B007AA844 /* SRChunkBufferTests.m */; };
+		D247495B2136FF7000267C07 /* SREventSourceStreamReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B355001C7CE27B0076E8E0 /* SREventSourceStreamReaderTests.m */; };
+		D247495C2136FF7000267C07 /* SRServerSentEventsTransportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 391F97961C71132B007AA844 /* SRServerSentEventsTransportTests.m */; };
+		D247495D2136FF7000267C07 /* SRWebSocketTransportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 391F97971C71132B007AA844 /* SRWebSocketTransportTests.m */; };
+		D247495E2136FF7000267C07 /* SRJSONTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 391F97B71C7113A1007AA844 /* SRJSONTests.m */; };
+		D247495F2136FF7000267C07 /* SRMockClientTransport.h in Sources */ = {isa = PBXBuildFile; fileRef = 391F978B1C711309007AA844 /* SRMockClientTransport.h */; };
+		D24749602136FF7000267C07 /* SRMockClientTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 391F978C1C711309007AA844 /* SRMockClientTransport.m */; };
+		D24749612136FF7000267C07 /* SRMockNetwork.h in Sources */ = {isa = PBXBuildFile; fileRef = 391F978D1C711309007AA844 /* SRMockNetwork.h */; };
+		D24749622136FF7000267C07 /* SRMockNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 391F978E1C711309007AA844 /* SRMockNetwork.m */; };
+		D24749632136FF7000267C07 /* SRMockSSENetworkStream.h in Sources */ = {isa = PBXBuildFile; fileRef = 3989F33B1C985122005A100A /* SRMockSSENetworkStream.h */; };
+		D24749642136FF7000267C07 /* SRMockSSENetworkStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 3989F33C1C985122005A100A /* SRMockSSENetworkStream.m */; };
+		D24749652136FF7000267C07 /* SRMockWSNetworkStream.h in Sources */ = {isa = PBXBuildFile; fileRef = 3989F33F1C98555A005A100A /* SRMockWSNetworkStream.h */; };
+		D24749662136FF7000267C07 /* SRMockWSNetworkStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 3989F3401C98555A005A100A /* SRMockWSNetworkStream.m */; };
+		D24749672136FF7000267C07 /* SRMockWaitBlockOperation.h in Sources */ = {isa = PBXBuildFile; fileRef = 3989F3371C984F2E005A100A /* SRMockWaitBlockOperation.h */; };
+		D24749682136FF7000267C07 /* SRMockWaitBlockOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3989F3381C984F2E005A100A /* SRMockWaitBlockOperation.m */; };
+		D24749692136FF7000267C07 /* SignalRObjC.h in Sources */ = {isa = PBXBuildFile; fileRef = D24749022136FF1F00267C07 /* SignalRObjC.h */; };
+		D247496A2136FF7000267C07 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = D24749032136FF1F00267C07 /* Info.plist */; };
+		D247496B2136FF8600267C07 /* AFDownloadRequestOperation.h in Sources */ = {isa = PBXBuildFile; fileRef = D24748AA2136F3DE00267C07 /* AFDownloadRequestOperation.h */; };
+		D247496C2136FF8600267C07 /* AFDownloadRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D24748AB2136F3DE00267C07 /* AFDownloadRequestOperation.m */; };
+		D247496D2136FF8600267C07 /* AFSecurityPolicy.h in Sources */ = {isa = PBXBuildFile; fileRef = D24748722136F33900267C07 /* AFSecurityPolicy.h */; };
+		D247496E2136FF8600267C07 /* AFNetworkReachabilityManager.h in Sources */ = {isa = PBXBuildFile; fileRef = D24748732136F33900267C07 /* AFNetworkReachabilityManager.h */; };
+		D247496F2136FF8600267C07 /* AFHTTPRequestOperation.h in Sources */ = {isa = PBXBuildFile; fileRef = D24748742136F33900267C07 /* AFHTTPRequestOperation.h */; };
+		D24749702136FF8600267C07 /* AFHTTPRequestOperationManager.h in Sources */ = {isa = PBXBuildFile; fileRef = D24748752136F33900267C07 /* AFHTTPRequestOperationManager.h */; };
+		D24749712136FF8600267C07 /* AFURLSessionManager.h in Sources */ = {isa = PBXBuildFile; fileRef = D24748762136F33900267C07 /* AFURLSessionManager.h */; };
+		D24749722136FF8600267C07 /* AFURLRequestSerialization.h in Sources */ = {isa = PBXBuildFile; fileRef = D24748772136F33900267C07 /* AFURLRequestSerialization.h */; };
+		D24749732136FF8600267C07 /* AFURLConnectionOperation.h in Sources */ = {isa = PBXBuildFile; fileRef = D24748782136F33900267C07 /* AFURLConnectionOperation.h */; };
+		D24749742136FF8600267C07 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = D24748792136F33900267C07 /* AFURLResponseSerialization.m */; };
+		D24749752136FF8600267C07 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D247487A2136F33900267C07 /* AFHTTPSessionManager.m */; };
+		D24749762136FF8600267C07 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D247487B2136F33900267C07 /* AFURLConnectionOperation.m */; };
+		D24749772136FF8600267C07 /* AFURLResponseSerialization.h in Sources */ = {isa = PBXBuildFile; fileRef = D247487C2136F33900267C07 /* AFURLResponseSerialization.h */; };
+		D24749782136FF8600267C07 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D247487D2136F33900267C07 /* AFURLSessionManager.m */; };
+		D24749792136FF8600267C07 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D247487E2136F33900267C07 /* AFHTTPRequestOperationManager.m */; };
+		D247497A2136FF8600267C07 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = D247487F2136F33900267C07 /* AFURLRequestSerialization.m */; };
+		D247497B2136FF8600267C07 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D24748802136F33900267C07 /* AFHTTPRequestOperation.m */; };
+		D247497C2136FF8600267C07 /* AFNetworking.h in Sources */ = {isa = PBXBuildFile; fileRef = D24748812136F33900267C07 /* AFNetworking.h */; };
+		D247497D2136FF8600267C07 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D24748822136F33900267C07 /* AFNetworkReachabilityManager.m */; };
+		D247497E2136FF8600267C07 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = D24748832136F33900267C07 /* AFSecurityPolicy.m */; };
+		D247497F2136FF8600267C07 /* AFHTTPSessionManager.h in Sources */ = {isa = PBXBuildFile; fileRef = D24748842136F33900267C07 /* AFHTTPSessionManager.h */; };
+		D24749802136FF8600267C07 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D247485F2136F33900267C07 /* UIAlertView+AFNetworking.m */; };
+		D24749812136FF8600267C07 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D24748602136F33900267C07 /* UIProgressView+AFNetworking.m */; };
+		D24749822136FF8600267C07 /* UIButton+AFNetworking.h in Sources */ = {isa = PBXBuildFile; fileRef = D24748612136F33900267C07 /* UIButton+AFNetworking.h */; };
+		D24749832136FF8600267C07 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D24748622136F33900267C07 /* UIRefreshControl+AFNetworking.m */; };
+		D24749842136FF8600267C07 /* UIImageView+AFNetworking.h in Sources */ = {isa = PBXBuildFile; fileRef = D24748632136F33900267C07 /* UIImageView+AFNetworking.h */; };
+		D24749852136FF8600267C07 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D24748642136F33900267C07 /* AFNetworkActivityIndicatorManager.m */; };
+		D24749862136FF8600267C07 /* UIWebView+AFNetworking.h in Sources */ = {isa = PBXBuildFile; fileRef = D24748652136F33900267C07 /* UIWebView+AFNetworking.h */; };
+		D24749872136FF8600267C07 /* UIActivityIndicatorView+AFNetworking.h in Sources */ = {isa = PBXBuildFile; fileRef = D24748662136F33900267C07 /* UIActivityIndicatorView+AFNetworking.h */; };
+		D24749882136FF8600267C07 /* UIAlertView+AFNetworking.h in Sources */ = {isa = PBXBuildFile; fileRef = D24748672136F33900267C07 /* UIAlertView+AFNetworking.h */; };
+		D24749892136FF8600267C07 /* UIImage+AFNetworking.h in Sources */ = {isa = PBXBuildFile; fileRef = D24748682136F33900267C07 /* UIImage+AFNetworking.h */; };
+		D247498A2136FF8600267C07 /* UIProgressView+AFNetworking.h in Sources */ = {isa = PBXBuildFile; fileRef = D24748692136F33900267C07 /* UIProgressView+AFNetworking.h */; };
+		D247498B2136FF8600267C07 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D247486A2136F33900267C07 /* UIImageView+AFNetworking.m */; };
+		D247498C2136FF8600267C07 /* UIKit+AFNetworking.h in Sources */ = {isa = PBXBuildFile; fileRef = D247486B2136F33900267C07 /* UIKit+AFNetworking.h */; };
+		D247498D2136FF8600267C07 /* UIRefreshControl+AFNetworking.h in Sources */ = {isa = PBXBuildFile; fileRef = D247486C2136F33900267C07 /* UIRefreshControl+AFNetworking.h */; };
+		D247498E2136FF8600267C07 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D247486D2136F33900267C07 /* UIButton+AFNetworking.m */; };
+		D247498F2136FF8600267C07 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D247486E2136F33900267C07 /* UIActivityIndicatorView+AFNetworking.m */; };
+		D24749902136FF8600267C07 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D247486F2136F33900267C07 /* UIWebView+AFNetworking.m */; };
+		D24749912136FF8600267C07 /* AFNetworkActivityIndicatorManager.h in Sources */ = {isa = PBXBuildFile; fileRef = D24748702136F33900267C07 /* AFNetworkActivityIndicatorManager.h */; };
+		D24749922136FF9B00267C07 /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D24748B42136F4E300267C07 /* SocketRocket.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +224,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 39302A2D1C6978AB0061C6B5;
 			remoteInfo = SignalR.Client.iOS;
+		};
+		D247490A2136FF1F00267C07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 392077FE15AF13C3009B959E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D24748FF2136FF1F00267C07;
+			remoteInfo = SignalRObjC;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -229,6 +363,12 @@
 		D24748AA2136F3DE00267C07 /* AFDownloadRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFDownloadRequestOperation.h; sourceTree = "<group>"; };
 		D24748AB2136F3DE00267C07 /* AFDownloadRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFDownloadRequestOperation.m; sourceTree = "<group>"; };
 		D24748B42136F4E300267C07 /* SocketRocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SocketRocket.framework; sourceTree = "<group>"; };
+		D24749002136FF1F00267C07 /* SignalRObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SignalRObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24749022136FF1F00267C07 /* SignalRObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignalRObjC.h; sourceTree = "<group>"; };
+		D24749032136FF1F00267C07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D24749082136FF1F00267C07 /* SignalRObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignalRObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D247490D2136FF1F00267C07 /* SignalRObjCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalRObjCTests.swift; sourceTree = "<group>"; };
+		D247490F2136FF1F00267C07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,6 +385,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				39302A381C6978AC0061C6B5 /* SignalR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24748FC2136FF1F00267C07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24749922136FF9B00267C07 /* SocketRocket.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24749052136FF1F00267C07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24749092136FF1F00267C07 /* SignalRObjC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +476,8 @@
 				3920781715AF13F6009B959E /* SignalR.Client */,
 				39302A241C6977660061C6B5 /* Supporting Files */,
 				391F97891C7112DC007AA844 /* Tests */,
+				D24749012136FF1F00267C07 /* SignalRObjC */,
+				D247490C2136FF1F00267C07 /* SignalRObjCTests */,
 				3920780915AF13C3009B959E /* Frameworks */,
 				3920780815AF13C3009B959E /* Products */,
 			);
@@ -330,6 +488,8 @@
 			children = (
 				39302A2E1C6978AB0061C6B5 /* SignalR.framework */,
 				39302A371C6978AC0061C6B5 /* SignalR.Client.iOSTests.xctest */,
+				D24749002136FF1F00267C07 /* SignalRObjC.framework */,
+				D24749082136FF1F00267C07 /* SignalRObjCTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -523,6 +683,24 @@
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
+		D24749012136FF1F00267C07 /* SignalRObjC */ = {
+			isa = PBXGroup;
+			children = (
+				D24749022136FF1F00267C07 /* SignalRObjC.h */,
+				D24749032136FF1F00267C07 /* Info.plist */,
+			);
+			path = SignalRObjC;
+			sourceTree = "<group>";
+		};
+		D247490C2136FF1F00267C07 /* SignalRObjCTests */ = {
+			isa = PBXGroup;
+			children = (
+				D247490D2136FF1F00267C07 /* SignalRObjCTests.swift */,
+				D247490F2136FF1F00267C07 /* Info.plist */,
+			);
+			path = SignalRObjCTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -551,6 +729,14 @@
 				D24748922136F33900267C07 /* UIRefreshControl+AFNetworking.h in Headers */,
 				D24748962136F33900267C07 /* AFNetworkActivityIndicatorManager.h in Headers */,
 				D24748A62136F33900267C07 /* AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24748FD2136FF1F00267C07 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24749102136FF1F00267C07 /* SignalRObjC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -593,12 +779,49 @@
 			productReference = 39302A371C6978AC0061C6B5 /* SignalR.Client.iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		D24748FF2136FF1F00267C07 /* SignalRObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D24749112136FF1F00267C07 /* Build configuration list for PBXNativeTarget "SignalRObjC" */;
+			buildPhases = (
+				D24748FB2136FF1F00267C07 /* Sources */,
+				D24748FC2136FF1F00267C07 /* Frameworks */,
+				D24748FD2136FF1F00267C07 /* Headers */,
+				D24748FE2136FF1F00267C07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SignalRObjC;
+			productName = SignalRObjC;
+			productReference = D24749002136FF1F00267C07 /* SignalRObjC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D24749072136FF1F00267C07 /* SignalRObjCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D24749142136FF1F00267C07 /* Build configuration list for PBXNativeTarget "SignalRObjCTests" */;
+			buildPhases = (
+				D24749042136FF1F00267C07 /* Sources */,
+				D24749052136FF1F00267C07 /* Frameworks */,
+				D24749062136FF1F00267C07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D247490B2136FF1F00267C07 /* PBXTargetDependency */,
+			);
+			name = SignalRObjCTests;
+			productName = SignalRObjCTests;
+			productReference = D24749082136FF1F00267C07 /* SignalRObjCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		392077FE15AF13C3009B959E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "DyKnow LLC";
 				TargetAttributes = {
@@ -607,6 +830,16 @@
 					};
 					39302A361C6978AC0061C6B5 = {
 						CreatedOnToolsVersion = 7.2;
+					};
+					D24748FF2136FF1F00267C07 = {
+						CreatedOnToolsVersion = 9.4.1;
+						DevelopmentTeam = 9F99Z2TAVG;
+						ProvisioningStyle = Automatic;
+					};
+					D24749072136FF1F00267C07 = {
+						CreatedOnToolsVersion = 9.4.1;
+						DevelopmentTeam = 9F99Z2TAVG;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -624,6 +857,8 @@
 			targets = (
 				39302A2D1C6978AB0061C6B5 /* SignalR.Client.iOS */,
 				39302A361C6978AC0061C6B5 /* SignalR.Client.iOSTests */,
+				D24748FF2136FF1F00267C07 /* SignalRObjC */,
+				D24749072136FF1F00267C07 /* SignalRObjCTests */,
 			);
 		};
 /* End PBXProject section */
@@ -637,6 +872,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		39302A351C6978AC0061C6B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24748FE2136FF1F00267C07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24749062136FF1F00267C07 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -718,6 +967,144 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D24748FB2136FF1F00267C07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D247496B2136FF8600267C07 /* AFDownloadRequestOperation.h in Sources */,
+				D247496C2136FF8600267C07 /* AFDownloadRequestOperation.m in Sources */,
+				D247496D2136FF8600267C07 /* AFSecurityPolicy.h in Sources */,
+				D247496E2136FF8600267C07 /* AFNetworkReachabilityManager.h in Sources */,
+				D247496F2136FF8600267C07 /* AFHTTPRequestOperation.h in Sources */,
+				D24749702136FF8600267C07 /* AFHTTPRequestOperationManager.h in Sources */,
+				D24749712136FF8600267C07 /* AFURLSessionManager.h in Sources */,
+				D24749722136FF8600267C07 /* AFURLRequestSerialization.h in Sources */,
+				D24749732136FF8600267C07 /* AFURLConnectionOperation.h in Sources */,
+				D24749742136FF8600267C07 /* AFURLResponseSerialization.m in Sources */,
+				D24749752136FF8600267C07 /* AFHTTPSessionManager.m in Sources */,
+				D24749762136FF8600267C07 /* AFURLConnectionOperation.m in Sources */,
+				D24749772136FF8600267C07 /* AFURLResponseSerialization.h in Sources */,
+				D24749782136FF8600267C07 /* AFURLSessionManager.m in Sources */,
+				D24749792136FF8600267C07 /* AFHTTPRequestOperationManager.m in Sources */,
+				D247497A2136FF8600267C07 /* AFURLRequestSerialization.m in Sources */,
+				D247497B2136FF8600267C07 /* AFHTTPRequestOperation.m in Sources */,
+				D247497C2136FF8600267C07 /* AFNetworking.h in Sources */,
+				D247497D2136FF8600267C07 /* AFNetworkReachabilityManager.m in Sources */,
+				D247497E2136FF8600267C07 /* AFSecurityPolicy.m in Sources */,
+				D247497F2136FF8600267C07 /* AFHTTPSessionManager.h in Sources */,
+				D24749802136FF8600267C07 /* UIAlertView+AFNetworking.m in Sources */,
+				D24749812136FF8600267C07 /* UIProgressView+AFNetworking.m in Sources */,
+				D24749822136FF8600267C07 /* UIButton+AFNetworking.h in Sources */,
+				D24749832136FF8600267C07 /* UIRefreshControl+AFNetworking.m in Sources */,
+				D24749842136FF8600267C07 /* UIImageView+AFNetworking.h in Sources */,
+				D24749852136FF8600267C07 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				D24749862136FF8600267C07 /* UIWebView+AFNetworking.h in Sources */,
+				D24749872136FF8600267C07 /* UIActivityIndicatorView+AFNetworking.h in Sources */,
+				D24749882136FF8600267C07 /* UIAlertView+AFNetworking.h in Sources */,
+				D24749892136FF8600267C07 /* UIImage+AFNetworking.h in Sources */,
+				D247498A2136FF8600267C07 /* UIProgressView+AFNetworking.h in Sources */,
+				D247498B2136FF8600267C07 /* UIImageView+AFNetworking.m in Sources */,
+				D247498C2136FF8600267C07 /* UIKit+AFNetworking.h in Sources */,
+				D247498D2136FF8600267C07 /* UIRefreshControl+AFNetworking.h in Sources */,
+				D247498E2136FF8600267C07 /* UIButton+AFNetworking.m in Sources */,
+				D247498F2136FF8600267C07 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				D24749902136FF8600267C07 /* UIWebView+AFNetworking.m in Sources */,
+				D24749912136FF8600267C07 /* AFNetworkActivityIndicatorManager.h in Sources */,
+				D24749172136FF7000267C07 /* SRHubs.h in Sources */,
+				D24749182136FF7000267C07 /* SRHubConnectionInterface.h in Sources */,
+				D24749192136FF7000267C07 /* SRHubConnection.h in Sources */,
+				D247491A2136FF7000267C07 /* SRHubConnection.m in Sources */,
+				D247491B2136FF7000267C07 /* SRHubProxyInterface.h in Sources */,
+				D247491C2136FF7000267C07 /* SRHubProxy.h in Sources */,
+				D247491D2136FF7000267C07 /* SRHubProxy.m in Sources */,
+				D247491E2136FF7000267C07 /* SRHubInvocation.h in Sources */,
+				D247491F2136FF7000267C07 /* SRHubInvocation.m in Sources */,
+				D24749202136FF7000267C07 /* SRHubRegistrationData.h in Sources */,
+				D24749212136FF7000267C07 /* SRHubRegistrationData.m in Sources */,
+				D24749222136FF7000267C07 /* SRHubResult.h in Sources */,
+				D24749232136FF7000267C07 /* SRHubResult.m in Sources */,
+				D24749242136FF7000267C07 /* SRSubscription.h in Sources */,
+				D24749252136FF7000267C07 /* SRSubscription.m in Sources */,
+				D24749262136FF7000267C07 /* NSObject+SRJSON.h in Sources */,
+				D24749272136FF7000267C07 /* NSObject+SRJSON.m in Sources */,
+				D24749282136FF7000267C07 /* SRDeserializable.h in Sources */,
+				D24749292136FF7000267C07 /* SRExceptionHelper.h in Sources */,
+				D247492A2136FF7000267C07 /* SRExceptionHelper.m in Sources */,
+				D247492B2136FF7000267C07 /* SRSerializable.h in Sources */,
+				D247492C2136FF7000267C07 /* SRVersion.h in Sources */,
+				D247492D2136FF7000267C07 /* SRVersion.m in Sources */,
+				D247492E2136FF7000267C07 /* SRConnectionInterface.h in Sources */,
+				D247492F2136FF7000267C07 /* SRConnection.h in Sources */,
+				D24749302136FF7000267C07 /* SRConnection.m in Sources */,
+				D24749312136FF7000267C07 /* SRConnectionExtensions.h in Sources */,
+				D24749322136FF7000267C07 /* SRConnectionExtensions.m in Sources */,
+				D24749332136FF7000267C07 /* SRConnectionDelegate.h in Sources */,
+				D24749342136FF7000267C07 /* SRConnectionState.h in Sources */,
+				D24749352136FF7000267C07 /* SRHeartbeatMonitor.h in Sources */,
+				D24749362136FF7000267C07 /* SRHeartbeatMonitor.m in Sources */,
+				D24749372136FF7000267C07 /* SRKeepAliveData.h in Sources */,
+				D24749382136FF7000267C07 /* SRKeepAliveData.m in Sources */,
+				D24749392136FF7000267C07 /* SRNegotiationResponse.h in Sources */,
+				D247493A2136FF7000267C07 /* SRNegotiationResponse.m in Sources */,
+				D247493B2136FF7000267C07 /* SRLog.h in Sources */,
+				D247493C2136FF7000267C07 /* SREventSourceResponseSerializer.h in Sources */,
+				D247493D2136FF7000267C07 /* SREventSourceResponseSerializer.m in Sources */,
+				D247493E2136FF7000267C07 /* SREventSourceRequestSerializer.h in Sources */,
+				D247493F2136FF7000267C07 /* SREventSourceRequestSerializer.m in Sources */,
+				D24749402136FF7000267C07 /* SRChunkBuffer.h in Sources */,
+				D24749412136FF7000267C07 /* SRChunkBuffer.m in Sources */,
+				D24749422136FF7000267C07 /* SREventSourceStreamReader.h in Sources */,
+				D24749432136FF7000267C07 /* SREventSourceStreamReader.m in Sources */,
+				D24749442136FF7000267C07 /* SRServerSentEvent.h in Sources */,
+				D24749452136FF7000267C07 /* SRServerSentEvent.m in Sources */,
+				D24749462136FF7000267C07 /* SRWebSocketConnectionInfo.h in Sources */,
+				D24749472136FF7000267C07 /* SRWebSocketConnectionInfo.m in Sources */,
+				D24749482136FF7000267C07 /* SRClientTransportInterface.h in Sources */,
+				D24749492136FF7000267C07 /* SRHttpBasedTransport.h in Sources */,
+				D247494A2136FF7000267C07 /* SRHttpBasedTransport.m in Sources */,
+				D247494B2136FF7000267C07 /* SRAutoTransport.h in Sources */,
+				D247494C2136FF7000267C07 /* SRAutoTransport.m in Sources */,
+				D247494D2136FF7000267C07 /* SRLongPollingTransport.h in Sources */,
+				D247494E2136FF7000267C07 /* SRLongPollingTransport.m in Sources */,
+				D247494F2136FF7000267C07 /* SRServerSentEventsTransport.h in Sources */,
+				D24749502136FF7000267C07 /* SRServerSentEventsTransport.m in Sources */,
+				D24749512136FF7000267C07 /* SRWebSocketTransport.h in Sources */,
+				D24749522136FF7000267C07 /* SRWebSocketTransport.m in Sources */,
+				D24749532136FF7000267C07 /* Info.plist in Sources */,
+				D24749542136FF7000267C07 /* SignalR.h in Sources */,
+				D24749552136FF7000267C07 /* SRConnectionTests.m in Sources */,
+				D24749562136FF7000267C07 /* SRHubConnectionTests.m in Sources */,
+				D24749572136FF7000267C07 /* SRHubProxyTests.m in Sources */,
+				D24749582136FF7000267C07 /* SRAutoTransportTests.m in Sources */,
+				D24749592136FF7000267C07 /* SRLongPollingTransportTests.m in Sources */,
+				D247495A2136FF7000267C07 /* SRChunkBufferTests.m in Sources */,
+				D247495B2136FF7000267C07 /* SREventSourceStreamReaderTests.m in Sources */,
+				D247495C2136FF7000267C07 /* SRServerSentEventsTransportTests.m in Sources */,
+				D247495D2136FF7000267C07 /* SRWebSocketTransportTests.m in Sources */,
+				D247495E2136FF7000267C07 /* SRJSONTests.m in Sources */,
+				D247495F2136FF7000267C07 /* SRMockClientTransport.h in Sources */,
+				D24749602136FF7000267C07 /* SRMockClientTransport.m in Sources */,
+				D24749612136FF7000267C07 /* SRMockNetwork.h in Sources */,
+				D24749622136FF7000267C07 /* SRMockNetwork.m in Sources */,
+				D24749632136FF7000267C07 /* SRMockSSENetworkStream.h in Sources */,
+				D24749642136FF7000267C07 /* SRMockSSENetworkStream.m in Sources */,
+				D24749652136FF7000267C07 /* SRMockWSNetworkStream.h in Sources */,
+				D24749662136FF7000267C07 /* SRMockWSNetworkStream.m in Sources */,
+				D24749672136FF7000267C07 /* SRMockWaitBlockOperation.h in Sources */,
+				D24749682136FF7000267C07 /* SRMockWaitBlockOperation.m in Sources */,
+				D24749692136FF7000267C07 /* SignalRObjC.h in Sources */,
+				D247496A2136FF7000267C07 /* Info.plist in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24749042136FF1F00267C07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D247490E2136FF1F00267C07 /* SignalRObjCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -725,6 +1112,11 @@
 			isa = PBXTargetDependency;
 			target = 39302A2D1C6978AB0061C6B5 /* SignalR.Client.iOS */;
 			targetProxy = 39302A391C6978AC0061C6B5 /* PBXContainerItemProxy */;
+		};
+		D247490B2136FF1F00267C07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D24748FF2136FF1F00267C07 /* SignalRObjC */;
+			targetProxy = D247490A2136FF1F00267C07 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -897,6 +1289,166 @@
 			};
 			name = Release;
 		};
+		D24749122136FF1F00267C07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9F99Z2TAVG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SignalRObjC/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.valterapps.SignalRObjC;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D24749132136FF1F00267C07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9F99Z2TAVG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SignalRObjC/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.valterapps.SignalRObjC;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D24749152136FF1F00267C07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9F99Z2TAVG;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SignalRObjCTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.valterapps.SignalRObjCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D24749162136FF1F00267C07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9F99Z2TAVG;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SignalRObjCTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.valterapps.SignalRObjCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -923,6 +1475,24 @@
 			buildConfigurations = (
 				39302A431C6978AC0061C6B5 /* Debug */,
 				39302A441C6978AC0061C6B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D24749112136FF1F00267C07 /* Build configuration list for PBXNativeTarget "SignalRObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24749122136FF1F00267C07 /* Debug */,
+				D24749132136FF1F00267C07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D24749142136FF1F00267C07 /* Build configuration list for PBXNativeTarget "SignalRObjCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24749152136FF1F00267C07 /* Debug */,
+				D24749162136FF1F00267C07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
