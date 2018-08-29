@@ -215,6 +215,7 @@
 		D24749902136FF8600267C07 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D247486F2136F33900267C07 /* UIWebView+AFNetworking.m */; };
 		D24749912136FF8600267C07 /* AFNetworkActivityIndicatorManager.h in Sources */ = {isa = PBXBuildFile; fileRef = D24748702136F33900267C07 /* AFNetworkActivityIndicatorManager.h */; };
 		D24749922136FF9B00267C07 /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D24748B42136F4E300267C07 /* SocketRocket.framework */; };
+		D27F92BC213707E000C02081 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D24748812136F33900267C07 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -737,6 +738,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D24749102136FF1F00267C07 /* SignalRObjC.h in Headers */,
+				D27F92BC213707E000C02081 /* AFNetworking.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
